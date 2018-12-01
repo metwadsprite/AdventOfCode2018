@@ -10,10 +10,7 @@ file.close()
 
 while True:
     for line in op:
-        if line[0] == "+":
-            freq += int(line[1:])
-        else:
-            freq -= int(line[1:])
+        freq += int(line)
 
         if freq in prev_freq:
             print(freq)
