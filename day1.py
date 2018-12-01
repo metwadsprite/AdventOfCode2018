@@ -8,7 +8,7 @@ for line in file:
     op.append(line)
 file.close()
 
-while true:
+while True:
     for line in op:
         if line[0] == "+":
             freq += int(line[1:])
