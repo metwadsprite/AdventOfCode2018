@@ -26,7 +26,6 @@ for line in file:
 
 file.close()
 
-dif_set = set()
 dif_list = []
 
 for line1 in lines:
