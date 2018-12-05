@@ -1,7 +1,7 @@
 def p1(file):
     poly = file.readline()
     lowercase = 'abcdefghijklmnopqrstuvwxyz'
-    uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
     it = 0
     while it != len(poly) - 1:
@@ -25,7 +25,7 @@ def p1(file):
 def p2(file):
     poly = file.readline()
     lowercase = 'abcdefghijklmnopqrstuvwxyz'
-    uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
     poly_bk = poly
     lens = []
