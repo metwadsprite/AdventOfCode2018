@@ -1,5 +1,3 @@
-import time
-
 def p1(file):
     poly = file.readline()
 
