@@ -62,7 +62,7 @@ def p2(file):
     print(min(lens))
 
 
-file = open("input.txt", "r")
+file = open('input.txt', 'r')
 # p1(file)
 p2(file)
 file.close()
