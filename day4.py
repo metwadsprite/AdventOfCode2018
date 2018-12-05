@@ -13,12 +13,10 @@ def p1(file):
 
     lines = sorted(lines)
 
-    g_check = False
     for line in lines:
         line = line.strip().split(" ")
 
         if line[2] == "Guard":
-            g_check = True
             is_asleep = False
             id = line[3].strip("#")
 
@@ -26,11 +24,11 @@ def p1(file):
                 ids.append(int(id))
                 vals.append(0)
 
-        if line[2] == "falls" and g_check:
+        if line[2] == "falls":
             slp_start = line[1].strip("]")
             is_asleep = True
 
-        if line[2] == "wakes" and g_check:
+        if line[2] == "wakes":
             slp_end = line[1].strip("]")
 
             if is_asleep:
@@ -175,6 +173,6 @@ def p2(file):
 
 
 file = open("input.txt", "r")
-# p1(file)
-p2(file)
+p1(file)
+# p2(file)
 file.close()
