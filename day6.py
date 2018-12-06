@@ -1,5 +1,3 @@
-import time
-
 def p1(file):
     cds = []
 
@@ -84,8 +82,6 @@ def p2(file):
 
 
 file = open('input.txt', 'r')
-st = time.time()
 # p1(file)
 p2(file)
-print(time.time() - st)
 file.close()
