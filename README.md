@@ -7,3 +7,4 @@ Advent of Code 2018 <br />
   * [Day 4](https://adventofcode.com/2018/day/4) <br />
   * [Day 5](https://adventofcode.com/2018/day/5) <br />
   * [Day 6](https://adventofcode.com/2018/day/6) <br />
+  * [Day 7](https://adventofcode.com/2018/day/7) <br />
